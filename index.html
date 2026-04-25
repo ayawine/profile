@@ -3,71 +3,320 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>土岐彩花 - プロフィール</title>
+    <meta name="description" content="土岐彩花（DOKI AYAKA）— 元SOICO株式会社 共同創業者 / 取締役COO。社外取締役・アドバイザー。資本政策・株式報酬の専門家。プロフィール、経歴、メディア掲載、SNSをまとめています。">
+    <title>土岐 彩花 | DOKI AYAKA — Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;600&family=Cormorant+Garamond:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>土岐彩花</h1>
-        <p>AIエンジニア / 研究者</p>
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a href="#" class="site-header__brand">DOKI AYAKA</a>
+            <nav class="site-nav" aria-label="セクションナビゲーション">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#career">Career</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#hobbies">Wine &amp; Food</a></li>
+                    <li><a href="#media">Media</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">自己紹介</a></li>
-            <li><a href="#work">仕事</a></li>
-            <li><a href="#hobbies">趣味</a></li>
-            <li><a href="#career">経歴</a></li>
-            <li><a href="#media">メディア</a></li>
-            <li><a href="#sns">SNS</a></li>
-        </ul>
-    </nav>
-
     <main>
-        <section id="about">
-            <h2>自己紹介</h2>
-            <p>こんにちは、土岐彩花です。AIの分野で活動しており、研究と開発に携わっています。初対面の方でもこのページを見れば、私が何をやっている人なのかが分かるようにまとめました。</p>
+        <section class="hero">
+            <div class="hero__inner">
+                <div class="hero__media">
+                    <img src="photos/231225_pp_17196.jpg" alt="土岐 彩花" class="hero__photo">
+                </div>
+                <div class="hero__text">
+                    <p class="hero__eyebrow">Profile</p>
+                    <h1 class="hero__name">
+                        <span class="hero__name-ja">土岐 彩花</span>
+                        <span class="hero__name-en">DOKI AYAKA</span>
+                    </h1>
+                    <p class="hero__role">社外取締役 / アドバイザー<br><span class="hero__role-sub">元 SOICO株式会社 共同創業者 / 取締役COO</span></p>
+                    <p class="hero__lead">資本政策・株式報酬の専門家として、年間1,000社のスタートアップ・上場企業を支援。2025年に共同創業したSOICO株式会社をM&Aにより売却。現在は社外取締役・アドバイザーとして複数社に関与。</p>
+                </div>
+            </div>
         </section>
 
-        <section id="work">
-            <h2>仕事</h2>
-            <p>AIエンジニアとして、機械学習モデルの開発と最適化を行っています。特に、自然言語処理と画像認識の分野に興味を持っています。</p>
+        <section id="about" class="section">
+            <div class="section__inner">
+                <p class="section__label">01 — About</p>
+                <h2 class="section__title">自己紹介</h2>
+                <div class="section__body">
+                    <p>慶應義塾大学在学中、19歳で起業を経験。その後、米国カリフォルニア大学バークレー校（University of California, Berkeley）に学部留学しました。</p>
+                    <p>卒業後はゴールドマン・サックス証券株式会社の投資銀行本部に入社し、資金調達のアドバイザリー業務に従事。2018年にSOICO株式会社を共同創業し、取締役COOに就任。スタートアップから上場企業まで、年間1,000社の資本政策や株式報酬設計のアドバイザリーに従事しました。</p>
+                    <p>新規事業として、CFOや社外取締役に特化したプロ人材事業を立ち上げ。2022年には株式会社アプレの社外取締役にも就任しました。</p>
+                    <p>2025年、SOICO株式会社をM&Aにより売却。現在は社外取締役・アドバイザーとして複数社に関与しています。</p>
+                </div>
+            </div>
         </section>
 
-        <section id="hobbies">
-            <h2>趣味</h2>
-            <p>読書、プログラミング、旅行が好きです。週末には新しい技術を学ぶためにオンラインコースを受講したり、コードを書いたりしています。</p>
+        <section id="career" class="section section--alt">
+            <div class="section__inner">
+                <p class="section__label">02 — Career</p>
+                <h2 class="section__title">経歴</h2>
+                <ol class="timeline">
+                    <li class="timeline__item">
+                        <p class="timeline__period">学生時代</p>
+                        <h3 class="timeline__title">慶應義塾大学 / UC Berkeley</h3>
+                        <p class="timeline__desc">慶應義塾大学に在学中、19歳の時に起業を経験。米国カリフォルニア大学バークレー校（University of California, Berkeley）に学部留学。</p>
+                    </li>
+                    <li class="timeline__item">
+                        <p class="timeline__period">2015 —</p>
+                        <h3 class="timeline__title">ゴールドマン・サックス証券 投資銀行本部</h3>
+                        <p class="timeline__desc">新卒で入社し、資金調達のアドバイザリー業務に従事。</p>
+                    </li>
+                    <li class="timeline__item">
+                        <p class="timeline__period">2018 —</p>
+                        <h3 class="timeline__title">SOICO株式会社 共同創業 / 取締役COO</h3>
+                        <p class="timeline__desc">スタートアップから上場企業まで、年間1,000社の資本政策・株式報酬設計のアドバイザリーに従事。新規事業として、CFOや社外取締役に特化したプロ人材事業を立ち上げ。</p>
+                    </li>
+                    <li class="timeline__item">
+                        <p class="timeline__period">2022 —</p>
+                        <h3 class="timeline__title">株式会社アプレ 社外取締役</h3>
+                        <p class="timeline__desc">社外取締役として経営に参画。</p>
+                    </li>
+                    <li class="timeline__item">
+                        <p class="timeline__period">2025 —</p>
+                        <h3 class="timeline__title">SOICO株式会社 M&A売却 / 社外取締役・アドバイザー</h3>
+                        <p class="timeline__desc">SOICO株式会社をM&Aにより売却。現在は社外取締役・アドバイザーとして複数社に関与。</p>
+                    </li>
+                </ol>
+            </div>
         </section>
 
-        <section id="career">
-            <h2>経歴</h2>
-            <ul>
-                <li>2020年 - 現在: AIエンジニア (株式会社TechCorp)</li>
-                <li>2018年 - 2020年: ソフトウェア開発者 (株式会社DevInc)</li>
-                <li>2016年 - 2018年: 大学院修士課程 (AI専攻)</li>
-            </ul>
+        <section id="work" class="section">
+            <div class="section__inner">
+                <p class="section__label">03 — Work</p>
+                <h2 class="section__title">仕事</h2>
+                <div class="section__body">
+                    <p>SOICO株式会社では、スタートアップから上場企業まで幅広く資本政策・株式報酬制度設計のアドバイザリーを提供してきました。新規事業として、ハイクラス人材事業も立ち上げています。</p>
+                </div>
+                <div class="cards">
+                    <article class="card">
+                        <p class="card__meta">Capital Strategy</p>
+                        <h3 class="card__title">SOICO</h3>
+                        <p class="card__desc">資本政策・株式報酬の専門サービス。年間1,000社以上の相談に対応。2025年にM&Aにより売却。</p>
+                    </article>
+                    <article class="card">
+                        <p class="card__meta">Diversity Board</p>
+                        <h3 class="card__title">ジョトリー</h3>
+                        <p class="card__desc">女性社外役員の紹介サービス。多様性のある経営体制づくりを支援。</p>
+                    </article>
+                    <article class="card">
+                        <p class="card__meta">Pro Talent</p>
+                        <h3 class="card__title">シェアリングCFO</h3>
+                        <p class="card__desc">CFOや社外取締役に特化したプロ人材事業。プロのスキルをシェアする新しい働き方を実現。</p>
+                    </article>
+                </div>
+            </div>
         </section>
 
-        <section id="media">
-            <h2>メディア</h2>
-            <ul>
-                <li><a href="https://example.com/interview1">AIの未来についてのインタビュー (TechNews, 2023)</a></li>
-                <li><a href="https://example.com/article1">機械学習の最新トレンド (AI Journal, 2022)</a></li>
-            </ul>
+        <section id="hobbies" class="section section--alt">
+            <div class="section__inner">
+                <p class="section__label">04 — Wine &amp; Food</p>
+                <h2 class="section__title">Wine &amp; Food</h2>
+                <div class="section__body">
+                    <p>お酒、特にワインが趣味で、ソムリエ・ワインエキスパート等の資格を保有しています。現在は WSET® Diploma（Level 4）を受験中です。食やカルチャーを中心に、幅広い分野に関心があります。</p>
+                </div>
+
+                <h3 class="subsection__title">資格 / Certifications</h3>
+                <ul class="cred-list">
+                    <li class="cred">
+                        <span class="cred__name">J.S.A. Sommelier</span>
+                        <span class="cred__org">日本ソムリエ協会</span>
+                    </li>
+                    <li class="cred">
+                        <span class="cred__name">J.S.A. Wine Expert</span>
+                        <span class="cred__org">日本ソムリエ協会</span>
+                    </li>
+                    <li class="cred">
+                        <span class="cred__name">SAKE DIPLOMA</span>
+                        <span class="cred__org">日本ソムリエ協会</span>
+                    </li>
+                    <li class="cred">
+                        <span class="cred__name">WSET® Level 3 Award in Wines</span>
+                        <span class="cred__org">Wine &amp; Spirit Education Trust</span>
+                    </li>
+                    <li class="cred cred--inprogress">
+                        <span class="cred__name">WSET® Diploma (Level 4)</span>
+                        <span class="cred__org">受験中</span>
+                    </li>
+                </ul>
+
+                <h3 class="subsection__title">関心領域 / Interests</h3>
+                <ul class="tag-list">
+                    <li>ワイン</li>
+                    <li>グルメ</li>
+                    <li>漫画・アニメ</li>
+                    <li>ゴルフ</li>
+                    <li>音楽活動</li>
+                    <li>サウナ</li>
+                    <li>アート</li>
+                    <li>不動産</li>
+                    <li>ポーカー</li>
+                </ul>
+            </div>
         </section>
 
-        <section id="sns">
-            <h2>SNS</h2>
-            <ul>
-                <li><a href="https://twitter.com/ayaka_toki">Twitter</a></li>
-                <li><a href="https://linkedin.com/in/ayaka-toki">LinkedIn</a></li>
-                <li><a href="https://github.com/ayaka-toki">GitHub</a></li>
-            </ul>
+        <section id="media" class="section">
+            <div class="section__inner">
+                <p class="section__label">05 — Media</p>
+                <h2 class="section__title">メディア掲載</h2>
+                <ul class="media-list">
+                    <li class="media">
+                        <a href="https://overe-shop.com/blogs/topics/overe-collaboration-specialinterview5" target="_blank" rel="noopener noreferrer" class="media__link">
+                            <div class="media__thumb">
+                                <img src="https://overe-shop.com/cdn/shop/articles/221221-01431_1024x1024.jpg?v=1687135655" alt="overE インタビュー記事" loading="lazy">
+                            </div>
+                            <div class="media__body">
+                                <p class="media__meta"><span class="media__source">overE</span><span class="media__date">2023.06.19</span></p>
+                                <h3 class="media__title">自分に合った洋服選びで、なりたい理想の姿に</h3>
+                                <p class="media__desc">経営者として「人の印象は出会って数秒で決まる」との考えから、洋服選びと体型に合ったサイズ展開の必要性を語ったインタビュー。</p>
+                                <span class="media__cta">記事を読む →</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="media">
+                        <a href="https://www.tv-tokyo.co.jp/plus/business/entry/2018/018651.html" target="_blank" rel="noopener noreferrer" class="media__link">
+                            <div class="media__thumb media__thumb--placeholder">
+                                <span class="media__thumb-label">TV TOKYO</span>
+                            </div>
+                            <div class="media__body">
+                                <p class="media__meta"><span class="media__source">テレ東プラス（テレビ東京）</span><span class="media__date">2018.12.25</span></p>
+                                <h3 class="media__title">Facebook友達5000人の人物だけが参加できるパーティに潜入</h3>
+                                <p class="media__desc">起業家や投資家が集う「五千人会」の潜入取材。情報収集とビジネスの繋げ方について語った記事。</p>
+                                <span class="media__cta">記事を読む →</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="media">
+                        <a href="https://prtimes.jp/main/html/rd/p/000000010.000045139.html" target="_blank" rel="noopener noreferrer" class="media__link">
+                            <div class="media__thumb">
+                                <img src="https://prtimes.jp/i/45139/10/resize/d45139-10-392760-3.jpg" alt="TOKYO MX ナイツのこれイチ！出演" loading="lazy">
+                            </div>
+                            <div class="media__body">
+                                <p class="media__meta"><span class="media__source">PR TIMES</span><span class="media__date">2020.03.11</span></p>
+                                <h3 class="media__title">TOKYO MX『ナイツのこれイチ！』に出演</h3>
+                                <p class="media__desc">TOKYO MXの『ナイツのこれイチ！』にゲストコメンテーターとして出演。経営やマーケティングの観点から解説。</p>
+                                <span class="media__cta">記事を読む →</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="media">
+                        <a href="https://www.youtube.com/watch?v=jZoaG8SlHlw" target="_blank" rel="noopener noreferrer" class="media__link">
+                            <div class="media__thumb">
+                                <img src="https://i.ytimg.com/vi/jZoaG8SlHlw/hqdefault.jpg" alt="YouTubeインタビュー サムネイル" loading="lazy">
+                                <span class="media__play" aria-hidden="true">▶</span>
+                            </div>
+                            <div class="media__body">
+                                <p class="media__meta"><span class="media__source">YouTube</span><span class="media__tag">Interview</span></p>
+                                <h3 class="media__title">「起業して父親の会社を買収してやる！」土岐彩花さんインタビュー vol.1</h3>
+                                <p class="media__desc">起業に至る原体験について語ったインタビュー動画。</p>
+                                <span class="media__cta">動画を見る →</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="media">
+                        <a href="https://www.youtube.com/watch?v=7WLMXfngDkw" target="_blank" rel="noopener noreferrer" class="media__link">
+                            <div class="media__thumb">
+                                <img src="https://i.ytimg.com/vi/7WLMXfngDkw/hqdefault.jpg" alt="YouTubeインタビュー サムネイル" loading="lazy">
+                                <span class="media__play" aria-hidden="true">▶</span>
+                            </div>
+                            <div class="media__body">
+                                <p class="media__meta"><span class="media__source">YouTube</span><span class="media__tag">Interview</span></p>
+                                <h3 class="media__title">【土岐彩花】2度の失敗から再び起業…いま成し遂げたいのは？</h3>
+                                <p class="media__desc">過去の失敗経験から再起した起業ストーリーと、現在の挑戦について語った動画。</p>
+                                <span class="media__cta">動画を見る →</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="media">
+                        <a href="https://www.youtube.com/watch?v=cWC5fXmBhG0" target="_blank" rel="noopener noreferrer" class="media__link">
+                            <div class="media__thumb">
+                                <img src="https://i.ytimg.com/vi/cWC5fXmBhG0/hqdefault.jpg" alt="YouTube動画 サムネイル" loading="lazy">
+                                <span class="media__play" aria-hidden="true">▶</span>
+                            </div>
+                            <div class="media__body">
+                                <p class="media__meta"><span class="media__source">YouTube</span><span class="media__tag">Talk</span></p>
+                                <h3 class="media__title">【土岐彩花】女性のキャリアとしてお勧めする社外取締役というシゴト</h3>
+                                <p class="media__desc">女性のキャリアの選択肢としての「社外取締役」という働き方について語った動画。</p>
+                                <span class="media__cta">動画を見る →</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="media">
+                        <a href="https://www.youtube.com/watch?v=_TrpbPqgccY" target="_blank" rel="noopener noreferrer" class="media__link">
+                            <div class="media__thumb">
+                                <img src="https://i.ytimg.com/vi/_TrpbPqgccY/hqdefault.jpg" alt="ビジおたch インタビュー サムネイル" loading="lazy">
+                                <span class="media__play" aria-hidden="true">▶</span>
+                            </div>
+                            <div class="media__body">
+                                <p class="media__meta"><span class="media__source">YouTube / ビジおたch</span><span class="media__tag">Interview</span></p>
+                                <h3 class="media__title">【前編】SOICO 土岐彩花 / COOに聞く！成長の秘訣 / ビジおたch vol.125</h3>
+                                <p class="media__desc">SOICO COOとして語る、事業成長の裏側とCOOの役割についてのインタビュー(前編)。</p>
+                                <span class="media__cta">動画を見る →</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="media">
+                        <a href="https://www.youtube.com/watch?v=XFK8BHIVgRI" target="_blank" rel="noopener noreferrer" class="media__link">
+                            <div class="media__thumb">
+                                <img src="https://i.ytimg.com/vi/XFK8BHIVgRI/hqdefault.jpg" alt="ビジおたch インタビュー サムネイル" loading="lazy">
+                                <span class="media__play" aria-hidden="true">▶</span>
+                            </div>
+                            <div class="media__body">
+                                <p class="media__meta"><span class="media__source">YouTube / ビジおたch</span><span class="media__tag">Interview</span></p>
+                                <h3 class="media__title">【後編】SOICO 土岐彩花 / COOに聞く！成長の秘訣3選とは？ / ビジおたch vol.125</h3>
+                                <p class="media__desc">同シリーズ後編。スタートアップ経営における成長の秘訣を3つの観点から語る。</p>
+                                <span class="media__cta">動画を見る →</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section section--alt">
+            <div class="section__inner">
+                <p class="section__label">06 — Contact</p>
+                <h2 class="section__title">SNS</h2>
+                <ul class="sns-list">
+                    <li>
+                        <a href="https://www.instagram.com/aya.kuishinbo/" target="_blank" rel="noopener noreferrer" class="sns">
+                            <span class="sns__platform">Instagram</span>
+                            <span class="sns__handle">@aya.kuishinbo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/ayakadoki" target="_blank" rel="noopener noreferrer" class="sns">
+                            <span class="sns__platform">X (Twitter)</span>
+                            <span class="sns__handle">@ayakadoki</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/ayaka.doki.3/" target="_blank" rel="noopener noreferrer" class="sns">
+                            <span class="sns__platform">Facebook</span>
+                            <span class="sns__handle">ayaka.doki.3</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2026 土岐彩花. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <p class="site-footer__name">DOKI AYAKA</p>
+            <p class="site-footer__copy">&copy; 2026 土岐 彩花. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="assets/js/script.js"></script>
